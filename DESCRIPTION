@@ -1,0 +1,12 @@
+Package: scrapFichasEmpresas
+Type: Package
+Title: Scrapea el directorio de empresas de Expansión online y enriquece los datos extraídos con datos del Economista.
+Version: 0.1.0
+Author: Gonzalo Pellejero and Kepa Amigo
+Maintainer: Gonzalo Pellejero <gonzalo@techfriendly.es> and Kepa Amigo <kepa@techfriendly.es>
+Description: Scrapea el directorio de empresas de Expansión online y enriquece el contenido mediante la extracción de datos del Economista online devolviendo un json resultado y envíandolo a la plataforma Smart City.
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Imports: jsonlite, magrittr, xml2, rvest, lubridate, httr, stringr, anytime
+RoxygenNote: 7.0.2
