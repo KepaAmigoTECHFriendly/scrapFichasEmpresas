@@ -267,8 +267,8 @@ scrap_fichas_empresas <- function(municipio, provincias){
   #===============================================================
 
   #Variables envío JSON a plataforma
-  TB_token <- "XDghy3jJM5qLsTOAnA0t"
-  TB_url   <- paste("http://94.130.77.253:8080/api/v1/",TB_token,"/telemetry",sep="")
+  TB_token <- "KeEzsCYrm5sCbENbwgJz"
+  TB_url   <- paste("http://78.47.39.122:8080/api/v1/",TB_token,"/telemetry",sep="")
 
   json_fichas_return <- toJSON(seleccion,pretty=T)
 
