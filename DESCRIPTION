@@ -9,4 +9,4 @@ License: GPL-2
 Encoding: UTF-8
 LazyData: true
 Imports: jsonlite, magrittr, xml2, rvest, lubridate, httr, stringr, anytime
-RoxygenNote: 7.0.2
+RoxygenNote: 7.1.0
